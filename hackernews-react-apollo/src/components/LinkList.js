@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Link from './Link'
+import { graphql } from 'react-apollo'
+import gql from 'graphql-tag'
 
 class LinkList extends Component {
 
@@ -24,7 +26,10 @@ class LinkList extends Component {
     )
   }
 
+}
+
 const ALL_LINKS_QUERY = gql`
+  # 2
   query AllLinksQuery {
     allLinks {
       id
@@ -34,6 +39,5 @@ const ALL_LINKS_QUERY = gql`
     }
   }
 `
-}
 
 export default graphql(ALL_LINKS_QUERY, { name: 'allLinksQuery' }) (LinkList)
