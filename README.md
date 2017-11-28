@@ -1,6 +1,6 @@
 # ReadME
 
-** App Features
+## App Features
 
    * Display a list of links
    * Search the list of links
@@ -9,7 +9,7 @@
    * Authenticated users can upvote links (one vote per link and user)
    * Realtime updates when other users upvote a link or create a new one
 
-** The following technologies were used to build this app: 
+## The following technologies were used to build this app: 
 
     ### Frontend:
        * React: Frontend framework for building user interfaces
