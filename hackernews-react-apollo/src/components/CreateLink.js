@@ -38,14 +38,16 @@ class CreateLink extends Component {
   }
 
   _createLink = async () => {
-  const { description, url } = this.state
-  await this.props.createLinkMutation({
-    variables: {
-      description,
-      url
-    }
-  })
- }
+    const { description, url } = this.state
+    await this.props.createLinkMutation({
+      variables: {
+        description,
+        url
+      }
+    })
+    this.props.history.push(`/`)
+  }
+
 
 }
 
