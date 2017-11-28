@@ -12,8 +12,8 @@
 ## The following technologies were used to build this app: 
 
    ### Frontend:
-     * React: Frontend framework for building user interfaces
-     * Apollo Client 2.0: Fully-featured, production-ready, caching GraphQL client
+   * React: Frontend framework for building user interfaces
+   * Apollo Client 2.0: Fully-featured, production-ready, caching GraphQL client
 
    ### Backend:
-     * Graphcool Framework: Flexible backend development framework combining GraphQL + Serverless
+   * Graphcool Framework: Flexible backend development framework combining GraphQL + Serverless
