@@ -20,8 +20,8 @@ types: ./types.graphql
 
 functions:
 
-added by email-password template: (please uncomment)
-
+# added by email-password template: (please uncomment)
+#
   signup:
     type: resolver
     schema: src/email-password/signup.graphql
